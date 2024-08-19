@@ -1,0 +1,80 @@
+* {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif; /* Fonte com fallback */
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    margin: 0; /* Remove margens padrão do body */
+}
+
+h1 {
+    color: #000;
+    text-align: center;
+    font-size: 111px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 456px;
+    height: auto; /* Corrige altura para auto ajuste */
+    margin: 0 auto; /* Centraliza o h1 horizontalmente */
+}
+
+.img {
+    width: 431px;
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw; /* Largura da viewport */
+    height: 100vh; /* Altura da viewport */
+    padding: 20px; /* Padding para espaçamento interno */
+    box-sizing: border-box; /* Inclui padding e border no cálculo da largura e altura */
+}
+
+.subtitle {
+    font-size: 29px;
+    width: 473px;
+    height: auto; /* Ajusta altura automaticamente para o conteúdo */
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.button {
+    background-color: #3EB25E; /* Verde para o fundo do botão */
+    color: #fff;
+    border-radius: 35px;
+    border: none;
+    width: 199px;
+    padding: 10px 0; /* Ajusta padding para uma aparência melhor */
+    font-weight: 700;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Adiciona alinhamento vertical */
+    cursor: pointer; /* Adiciona um cursor pointer para melhorar a usabilidade */
+    text-align: center; /* Centraliza o texto dentro do botão */
+}
+
+.button a {
+    color: #fff; /* Garante que o texto do link no botão seja branco */
+    text-decoration: none; /* Remove sublinhado do link */
+}
+
+.button:hover {
+    background-color: #2a8b4d; /* Verde escuro no hover */
+    color: #fff; /* Mantém o texto branco no hover */
+}
+
+.areaBotao {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adiciona espaço entre os botões, se houver mais de um */
+}
